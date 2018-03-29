@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PetStoreClient"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "An API for connecting to the Swagger Pet Store API sample."
 
   # This description is used to generate tags and improve search results.
@@ -134,7 +134,8 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency 'Alamofire', '~> 4.7.0'
+  s.dependency 'Alamofire', '~> 4.7.0' 
+  s.dependency 'RxSwift', '~> 4.1.2'
 
   s.swift_version = '4.0'
 
