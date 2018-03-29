@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB24C1472B19BBCEB923ECA4 /* Pods_PetStoreClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AAFCC6BD26236CB15317E4 /* Pods_PetStoreClientTests.framework */; };
+		D3BD3788D453E5CE5CCBC9BD /* Pods_PetStoreClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571A25DB70A90A342E568C2 /* Pods_PetStoreClient.framework */; };
 		EE54CA7F206C3984003BB514 /* PetStoreClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE54CA75206C3984003BB514 /* PetStoreClient.framework */; };
 		EE54CA84206C3984003BB514 /* PetStoreClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA83206C3984003BB514 /* PetStoreClientTests.swift */; };
 		EE54CA86206C3984003BB514 /* PetStoreClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EE54CA78206C3984003BB514 /* PetStoreClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE54CAA5206C3A93003BB514 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA91206C3A93003BB514 /* AlamofireImplementations.swift */; };
-		EE54CAA6206C3A93003BB514 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA92206C3A93003BB514 /* APIHelper.swift */; };
-		EE54CAA7206C3A93003BB514 /* PetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA94206C3A93003BB514 /* PetAPI.swift */; };
-		EE54CAA8206C3A93003BB514 /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA95206C3A93003BB514 /* StoreAPI.swift */; };
-		EE54CAA9206C3A93003BB514 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA96206C3A93003BB514 /* UserAPI.swift */; };
-		EE54CAAA206C3A93003BB514 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA97206C3A93003BB514 /* APIs.swift */; };
-		EE54CAAB206C3A93003BB514 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA98206C3A93003BB514 /* CodableHelper.swift */; };
-		EE54CAAC206C3A93003BB514 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA99206C3A93003BB514 /* Configuration.swift */; };
-		EE54CAAD206C3A93003BB514 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA9A206C3A93003BB514 /* Extensions.swift */; };
-		EE54CAAE206C3A93003BB514 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA9B206C3A93003BB514 /* JSONEncodableEncoding.swift */; };
-		EE54CAAF206C3A93003BB514 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA9C206C3A93003BB514 /* JSONEncodingHelper.swift */; };
-		EE54CAB0206C3A93003BB514 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA9E206C3A93003BB514 /* ApiResponse.swift */; };
-		EE54CAB1206C3A93003BB514 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA9F206C3A93003BB514 /* Category.swift */; };
-		EE54CAB2206C3A93003BB514 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAA0206C3A93003BB514 /* Order.swift */; };
-		EE54CAB3206C3A93003BB514 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAA1206C3A93003BB514 /* Pet.swift */; };
-		EE54CAB4206C3A93003BB514 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAA2206C3A93003BB514 /* Tag.swift */; };
-		EE54CAB5206C3A93003BB514 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAA3206C3A93003BB514 /* User.swift */; };
-		EE54CAB6206C3A93003BB514 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAA4206C3A93003BB514 /* Models.swift */; };
+		EE54CAF7206C435D003BB514 /* PetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE4206C435C003BB514 /* PetAPI.swift */; };
+		EE54CAF8206C435D003BB514 /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE5206C435C003BB514 /* StoreAPI.swift */; };
+		EE54CAF9206C435D003BB514 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE6206C435C003BB514 /* UserAPI.swift */; };
+		EE54CAFA206C435D003BB514 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE7206C435D003BB514 /* APIs.swift */; };
+		EE54CAFB206C435D003BB514 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE8206C435D003BB514 /* Configuration.swift */; };
+		EE54CAFC206C435D003BB514 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE9206C435D003BB514 /* JSONEncodingHelper.swift */; };
+		EE54CAFD206C435D003BB514 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEB206C435D003BB514 /* ApiResponse.swift */; };
+		EE54CAFE206C435D003BB514 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEC206C435D003BB514 /* Category.swift */; };
+		EE54CAFF206C435D003BB514 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAED206C435D003BB514 /* Order.swift */; };
+		EE54CB00206C435D003BB514 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEE206C435D003BB514 /* Pet.swift */; };
+		EE54CB01206C435D003BB514 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEF206C435D003BB514 /* Tag.swift */; };
+		EE54CB02206C435D003BB514 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF0206C435D003BB514 /* User.swift */; };
+		EE54CB03206C435D003BB514 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF1206C435D003BB514 /* Extensions.swift */; };
+		EE54CB04206C435D003BB514 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF2206C435D003BB514 /* Models.swift */; };
+		EE54CB05206C435D003BB514 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF3206C435D003BB514 /* APIHelper.swift */; };
+		EE54CB06206C435D003BB514 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF4206C435D003BB514 /* CodableHelper.swift */; };
+		EE54CB07206C435D003BB514 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF5206C435D003BB514 /* AlamofireImplementations.swift */; };
+		EE54CB08206C435D003BB514 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF6206C435D003BB514 /* JSONEncodableEncoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,30 +43,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1571A25DB70A90A342E568C2 /* Pods_PetStoreClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetStoreClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DFCAC5782C204DC4541FC6 /* Pods-PetStoreClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStoreClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetStoreClientTests/Pods-PetStoreClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C0A207C4A4D7547B284236 /* Pods-PetStoreClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStoreClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetStoreClientTests/Pods-PetStoreClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		E51D201E6FDD73FA37AF61F8 /* Pods-PetStoreClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStoreClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetStoreClient/Pods-PetStoreClient.debug.xcconfig"; sourceTree = "<group>"; };
+		E6A27C6276ED39CA71F20C55 /* Pods-PetStoreClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStoreClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetStoreClient/Pods-PetStoreClient.release.xcconfig"; sourceTree = "<group>"; };
 		EE54CA75206C3984003BB514 /* PetStoreClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PetStoreClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE54CA78206C3984003BB514 /* PetStoreClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetStoreClient.h; sourceTree = "<group>"; };
 		EE54CA79206C3984003BB514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE54CA7E206C3984003BB514 /* PetStoreClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetStoreClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE54CA83206C3984003BB514 /* PetStoreClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStoreClientTests.swift; sourceTree = "<group>"; };
 		EE54CA85206C3984003BB514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE54CA91206C3A93003BB514 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
-		EE54CA92206C3A93003BB514 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
-		EE54CA94206C3A93003BB514 /* PetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAPI.swift; sourceTree = "<group>"; };
-		EE54CA95206C3A93003BB514 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
-		EE54CA96206C3A93003BB514 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
-		EE54CA97206C3A93003BB514 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
-		EE54CA98206C3A93003BB514 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
-		EE54CA99206C3A93003BB514 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		EE54CA9A206C3A93003BB514 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		EE54CA9B206C3A93003BB514 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
-		EE54CA9C206C3A93003BB514 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
-		EE54CA9E206C3A93003BB514 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
-		EE54CA9F206C3A93003BB514 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		EE54CAA0206C3A93003BB514 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		EE54CAA1206C3A93003BB514 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
-		EE54CAA2206C3A93003BB514 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		EE54CAA3206C3A93003BB514 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		EE54CAA4206C3A93003BB514 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EE54CAE4206C435C003BB514 /* PetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAPI.swift; sourceTree = "<group>"; };
+		EE54CAE5206C435C003BB514 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
+		EE54CAE6206C435C003BB514 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		EE54CAE7206C435D003BB514 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		EE54CAE8206C435D003BB514 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EE54CAE9206C435D003BB514 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		EE54CAEB206C435D003BB514 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		EE54CAEC206C435D003BB514 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		EE54CAED206C435D003BB514 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EE54CAEE206C435D003BB514 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		EE54CAEF206C435D003BB514 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		EE54CAF0206C435D003BB514 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE54CAF1206C435D003BB514 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EE54CAF2206C435D003BB514 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EE54CAF3206C435D003BB514 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		EE54CAF4206C435D003BB514 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		EE54CAF5206C435D003BB514 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		EE54CAF6206C435D003BB514 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		F5AAFCC6BD26236CB15317E4 /* Pods_PetStoreClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetStoreClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BD3788D453E5CE5CCBC9BD /* Pods_PetStoreClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,18 +89,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE54CA7F206C3984003BB514 /* PetStoreClient.framework in Frameworks */,
+				AB24C1472B19BBCEB923ECA4 /* Pods_PetStoreClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1BE6282CCAD7A9250B63C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E51D201E6FDD73FA37AF61F8 /* Pods-PetStoreClient.debug.xcconfig */,
+				E6A27C6276ED39CA71F20C55 /* Pods-PetStoreClient.release.xcconfig */,
+				A2DFCAC5782C204DC4541FC6 /* Pods-PetStoreClientTests.debug.xcconfig */,
+				C1C0A207C4A4D7547B284236 /* Pods-PetStoreClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C23D672B5CB6BD1E89BA397A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1571A25DB70A90A342E568C2 /* Pods_PetStoreClient.framework */,
+				F5AAFCC6BD26236CB15317E4 /* Pods_PetStoreClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE54CA6B206C3984003BB514 = {
 			isa = PBXGroup;
 			children = (
 				EE54CA77206C3984003BB514 /* PetStoreClient */,
 				EE54CA82206C3984003BB514 /* PetStoreClientTests */,
 				EE54CA76206C3984003BB514 /* Products */,
+				8D1BE6282CCAD7A9250B63C7 /* Pods */,
+				C23D672B5CB6BD1E89BA397A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,48 +158,40 @@
 		EE54CA8F206C3A93003BB514 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EE54CA90206C3A93003BB514 /* Swaggers */,
+				EE54CAF5206C435D003BB514 /* AlamofireImplementations.swift */,
+				EE54CAF3206C435D003BB514 /* APIHelper.swift */,
+				EE54CAE3206C435C003BB514 /* APIs */,
+				EE54CAE7206C435D003BB514 /* APIs.swift */,
+				EE54CAF4206C435D003BB514 /* CodableHelper.swift */,
+				EE54CAE8206C435D003BB514 /* Configuration.swift */,
+				EE54CAF1206C435D003BB514 /* Extensions.swift */,
+				EE54CAF6206C435D003BB514 /* JSONEncodableEncoding.swift */,
+				EE54CAE9206C435D003BB514 /* JSONEncodingHelper.swift */,
+				EE54CAEA206C435D003BB514 /* Models */,
+				EE54CAF2206C435D003BB514 /* Models.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		EE54CA90206C3A93003BB514 /* Swaggers */ = {
+		EE54CAE3206C435C003BB514 /* APIs */ = {
 			isa = PBXGroup;
 			children = (
-				EE54CA91206C3A93003BB514 /* AlamofireImplementations.swift */,
-				EE54CA92206C3A93003BB514 /* APIHelper.swift */,
-				EE54CA93206C3A93003BB514 /* APIs */,
-				EE54CA97206C3A93003BB514 /* APIs.swift */,
-				EE54CA98206C3A93003BB514 /* CodableHelper.swift */,
-				EE54CA99206C3A93003BB514 /* Configuration.swift */,
-				EE54CA9A206C3A93003BB514 /* Extensions.swift */,
-				EE54CA9B206C3A93003BB514 /* JSONEncodableEncoding.swift */,
-				EE54CA9C206C3A93003BB514 /* JSONEncodingHelper.swift */,
-				EE54CA9D206C3A93003BB514 /* Models */,
-				EE54CAA4206C3A93003BB514 /* Models.swift */,
-			);
-			path = Swaggers;
-			sourceTree = "<group>";
-		};
-		EE54CA93206C3A93003BB514 /* APIs */ = {
-			isa = PBXGroup;
-			children = (
-				EE54CA94206C3A93003BB514 /* PetAPI.swift */,
-				EE54CA95206C3A93003BB514 /* StoreAPI.swift */,
-				EE54CA96206C3A93003BB514 /* UserAPI.swift */,
+				EE54CAE4206C435C003BB514 /* PetAPI.swift */,
+				EE54CAE5206C435C003BB514 /* StoreAPI.swift */,
+				EE54CAE6206C435C003BB514 /* UserAPI.swift */,
 			);
 			path = APIs;
 			sourceTree = "<group>";
 		};
-		EE54CA9D206C3A93003BB514 /* Models */ = {
+		EE54CAEA206C435D003BB514 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EE54CA9E206C3A93003BB514 /* ApiResponse.swift */,
-				EE54CA9F206C3A93003BB514 /* Category.swift */,
-				EE54CAA0206C3A93003BB514 /* Order.swift */,
-				EE54CAA1206C3A93003BB514 /* Pet.swift */,
-				EE54CAA2206C3A93003BB514 /* Tag.swift */,
-				EE54CAA3206C3A93003BB514 /* User.swift */,
+				EE54CAEB206C435D003BB514 /* ApiResponse.swift */,
+				EE54CAEC206C435D003BB514 /* Category.swift */,
+				EE54CAED206C435D003BB514 /* Order.swift */,
+				EE54CAEE206C435D003BB514 /* Pet.swift */,
+				EE54CAEF206C435D003BB514 /* Tag.swift */,
+				EE54CAF0206C435D003BB514 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE54CA89206C3984003BB514 /* Build configuration list for PBXNativeTarget "PetStoreClient" */;
 			buildPhases = (
+				C0874447ED1D4623F3919AAB /* [CP] Check Pods Manifest.lock */,
 				EE54CA70206C3984003BB514 /* Sources */,
 				EE54CA71206C3984003BB514 /* Frameworks */,
 				EE54CA72206C3984003BB514 /* Headers */,
@@ -208,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE54CA8C206C3984003BB514 /* Build configuration list for PBXNativeTarget "PetStoreClientTests" */;
 			buildPhases = (
+				E22E0160BA09D812535918A8 /* [CP] Check Pods Manifest.lock */,
 				EE54CA7A206C3984003BB514 /* Sources */,
 				EE54CA7B206C3984003BB514 /* Frameworks */,
 				EE54CA7C206C3984003BB514 /* Resources */,
+				029C4A3062E36C2E1E33DF30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +261,8 @@
 				TargetAttributes = {
 					EE54CA74206C3984003BB514 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
 					};
 					EE54CA7D206C3984003BB514 = {
 						CreatedOnToolsVersion = 9.2;
@@ -277,29 +305,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		029C4A3062E36C2E1E33DF30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PetStoreClientTests/Pods-PetStoreClientTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetStoreClientTests/Pods-PetStoreClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0874447ED1D4623F3919AAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetStoreClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22E0160BA09D812535918A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetStoreClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE54CA70206C3984003BB514 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE54CAB4206C3A93003BB514 /* Tag.swift in Sources */,
-				EE54CAB3206C3A93003BB514 /* Pet.swift in Sources */,
-				EE54CAAE206C3A93003BB514 /* JSONEncodableEncoding.swift in Sources */,
-				EE54CAA8206C3A93003BB514 /* StoreAPI.swift in Sources */,
-				EE54CAAD206C3A93003BB514 /* Extensions.swift in Sources */,
-				EE54CAAB206C3A93003BB514 /* CodableHelper.swift in Sources */,
-				EE54CAA7206C3A93003BB514 /* PetAPI.swift in Sources */,
-				EE54CAB5206C3A93003BB514 /* User.swift in Sources */,
-				EE54CAA6206C3A93003BB514 /* APIHelper.swift in Sources */,
-				EE54CAB2206C3A93003BB514 /* Order.swift in Sources */,
-				EE54CAAF206C3A93003BB514 /* JSONEncodingHelper.swift in Sources */,
-				EE54CAA9206C3A93003BB514 /* UserAPI.swift in Sources */,
-				EE54CAAA206C3A93003BB514 /* APIs.swift in Sources */,
-				EE54CAB1206C3A93003BB514 /* Category.swift in Sources */,
-				EE54CAB0206C3A93003BB514 /* ApiResponse.swift in Sources */,
-				EE54CAB6206C3A93003BB514 /* Models.swift in Sources */,
-				EE54CAAC206C3A93003BB514 /* Configuration.swift in Sources */,
-				EE54CAA5206C3A93003BB514 /* AlamofireImplementations.swift in Sources */,
+				EE54CB08206C435D003BB514 /* JSONEncodableEncoding.swift in Sources */,
+				EE54CAF8206C435D003BB514 /* StoreAPI.swift in Sources */,
+				EE54CAFB206C435D003BB514 /* Configuration.swift in Sources */,
+				EE54CAFC206C435D003BB514 /* JSONEncodingHelper.swift in Sources */,
+				EE54CB05206C435D003BB514 /* APIHelper.swift in Sources */,
+				EE54CAFF206C435D003BB514 /* Order.swift in Sources */,
+				EE54CAFD206C435D003BB514 /* ApiResponse.swift in Sources */,
+				EE54CB00206C435D003BB514 /* Pet.swift in Sources */,
+				EE54CB01206C435D003BB514 /* Tag.swift in Sources */,
+				EE54CB06206C435D003BB514 /* CodableHelper.swift in Sources */,
+				EE54CAF7206C435D003BB514 /* PetAPI.swift in Sources */,
+				EE54CB03206C435D003BB514 /* Extensions.swift in Sources */,
+				EE54CB02206C435D003BB514 /* User.swift in Sources */,
+				EE54CAFA206C435D003BB514 /* APIs.swift in Sources */,
+				EE54CAF9206C435D003BB514 /* UserAPI.swift in Sources */,
+				EE54CB07206C435D003BB514 /* AlamofireImplementations.swift in Sources */,
+				EE54CAFE206C435D003BB514 /* Category.swift in Sources */,
+				EE54CB04206C435D003BB514 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +522,13 @@
 		};
 		EE54CA8A206C3984003BB514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51D201E6FDD73FA37AF61F8 /* Pods-PetStoreClient.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4ASC5AUHW5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -450,7 +537,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clientresourcesinc.PetStoreClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,11 +547,13 @@
 		};
 		EE54CA8B206C3984003BB514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A27C6276ED39CA71F20C55 /* Pods-PetStoreClient.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4ASC5AUHW5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -471,6 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clientresourcesinc.PetStoreClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,6 +571,7 @@
 		};
 		EE54CA8D206C3984003BB514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DFCAC5782C204DC4541FC6 /* Pods-PetStoreClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +587,7 @@
 		};
 		EE54CA8E206C3984003BB514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C0A207C4A4D7547B284236 /* Pods-PetStoreClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
