@@ -12,24 +12,24 @@
 		EE54CA7F206C3984003BB514 /* PetStoreClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE54CA75206C3984003BB514 /* PetStoreClient.framework */; };
 		EE54CA84206C3984003BB514 /* PetStoreClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CA83206C3984003BB514 /* PetStoreClientTests.swift */; };
 		EE54CA86206C3984003BB514 /* PetStoreClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EE54CA78206C3984003BB514 /* PetStoreClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE54CAF7206C435D003BB514 /* PetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE4206C435C003BB514 /* PetAPI.swift */; };
-		EE54CAF8206C435D003BB514 /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE5206C435C003BB514 /* StoreAPI.swift */; };
-		EE54CAF9206C435D003BB514 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE6206C435C003BB514 /* UserAPI.swift */; };
-		EE54CAFA206C435D003BB514 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE7206C435D003BB514 /* APIs.swift */; };
-		EE54CAFB206C435D003BB514 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE8206C435D003BB514 /* Configuration.swift */; };
-		EE54CAFC206C435D003BB514 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAE9206C435D003BB514 /* JSONEncodingHelper.swift */; };
-		EE54CAFD206C435D003BB514 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEB206C435D003BB514 /* ApiResponse.swift */; };
-		EE54CAFE206C435D003BB514 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEC206C435D003BB514 /* Category.swift */; };
-		EE54CAFF206C435D003BB514 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAED206C435D003BB514 /* Order.swift */; };
-		EE54CB00206C435D003BB514 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEE206C435D003BB514 /* Pet.swift */; };
-		EE54CB01206C435D003BB514 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAEF206C435D003BB514 /* Tag.swift */; };
-		EE54CB02206C435D003BB514 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF0206C435D003BB514 /* User.swift */; };
-		EE54CB03206C435D003BB514 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF1206C435D003BB514 /* Extensions.swift */; };
-		EE54CB04206C435D003BB514 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF2206C435D003BB514 /* Models.swift */; };
-		EE54CB05206C435D003BB514 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF3206C435D003BB514 /* APIHelper.swift */; };
-		EE54CB06206C435D003BB514 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF4206C435D003BB514 /* CodableHelper.swift */; };
-		EE54CB07206C435D003BB514 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF5206C435D003BB514 /* AlamofireImplementations.swift */; };
-		EE54CB08206C435D003BB514 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CAF6206C435D003BB514 /* JSONEncodableEncoding.swift */; };
+		EE54CB23206D32FF003BB514 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB0F206D32FF003BB514 /* AlamofireImplementations.swift */; };
+		EE54CB24206D32FF003BB514 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB10206D32FF003BB514 /* APIHelper.swift */; };
+		EE54CB25206D32FF003BB514 /* PetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB12206D32FF003BB514 /* PetAPI.swift */; };
+		EE54CB26206D32FF003BB514 /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB13206D32FF003BB514 /* StoreAPI.swift */; };
+		EE54CB27206D32FF003BB514 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB14206D32FF003BB514 /* UserAPI.swift */; };
+		EE54CB28206D32FF003BB514 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB15206D32FF003BB514 /* APIs.swift */; };
+		EE54CB29206D32FF003BB514 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB16206D32FF003BB514 /* CodableHelper.swift */; };
+		EE54CB2A206D32FF003BB514 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB17206D32FF003BB514 /* Configuration.swift */; };
+		EE54CB2B206D32FF003BB514 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB18206D32FF003BB514 /* Extensions.swift */; };
+		EE54CB2C206D32FF003BB514 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB19206D32FF003BB514 /* JSONEncodableEncoding.swift */; };
+		EE54CB2D206D32FF003BB514 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB1A206D32FF003BB514 /* JSONEncodingHelper.swift */; };
+		EE54CB2E206D32FF003BB514 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB1C206D32FF003BB514 /* ApiResponse.swift */; };
+		EE54CB2F206D32FF003BB514 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB1D206D32FF003BB514 /* Category.swift */; };
+		EE54CB30206D32FF003BB514 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB1E206D32FF003BB514 /* Order.swift */; };
+		EE54CB31206D32FF003BB514 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB1F206D32FF003BB514 /* Pet.swift */; };
+		EE54CB32206D32FF003BB514 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB20206D32FF003BB514 /* Tag.swift */; };
+		EE54CB33206D32FF003BB514 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB21206D32FF003BB514 /* User.swift */; };
+		EE54CB34206D32FF003BB514 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54CB22206D32FF003BB514 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,24 +54,24 @@
 		EE54CA7E206C3984003BB514 /* PetStoreClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetStoreClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE54CA83206C3984003BB514 /* PetStoreClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStoreClientTests.swift; sourceTree = "<group>"; };
 		EE54CA85206C3984003BB514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE54CAE4206C435C003BB514 /* PetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAPI.swift; sourceTree = "<group>"; };
-		EE54CAE5206C435C003BB514 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
-		EE54CAE6206C435C003BB514 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
-		EE54CAE7206C435D003BB514 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
-		EE54CAE8206C435D003BB514 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		EE54CAE9206C435D003BB514 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
-		EE54CAEB206C435D003BB514 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
-		EE54CAEC206C435D003BB514 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		EE54CAED206C435D003BB514 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		EE54CAEE206C435D003BB514 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
-		EE54CAEF206C435D003BB514 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		EE54CAF0206C435D003BB514 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		EE54CAF1206C435D003BB514 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		EE54CAF2206C435D003BB514 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		EE54CAF3206C435D003BB514 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
-		EE54CAF4206C435D003BB514 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
-		EE54CAF5206C435D003BB514 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
-		EE54CAF6206C435D003BB514 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		EE54CB0F206D32FF003BB514 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		EE54CB10206D32FF003BB514 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		EE54CB12206D32FF003BB514 /* PetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetAPI.swift; sourceTree = "<group>"; };
+		EE54CB13206D32FF003BB514 /* StoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
+		EE54CB14206D32FF003BB514 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		EE54CB15206D32FF003BB514 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		EE54CB16206D32FF003BB514 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		EE54CB17206D32FF003BB514 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EE54CB18206D32FF003BB514 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EE54CB19206D32FF003BB514 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		EE54CB1A206D32FF003BB514 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		EE54CB1C206D32FF003BB514 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		EE54CB1D206D32FF003BB514 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		EE54CB1E206D32FF003BB514 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EE54CB1F206D32FF003BB514 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		EE54CB20206D32FF003BB514 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		EE54CB21206D32FF003BB514 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE54CB22206D32FF003BB514 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F5AAFCC6BD26236CB15317E4 /* Pods_PetStoreClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetStoreClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,40 +158,64 @@
 		EE54CA8F206C3A93003BB514 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EE54CAF5206C435D003BB514 /* AlamofireImplementations.swift */,
-				EE54CAF3206C435D003BB514 /* APIHelper.swift */,
-				EE54CAE3206C435C003BB514 /* APIs */,
-				EE54CAE7206C435D003BB514 /* APIs.swift */,
-				EE54CAF4206C435D003BB514 /* CodableHelper.swift */,
-				EE54CAE8206C435D003BB514 /* Configuration.swift */,
-				EE54CAF1206C435D003BB514 /* Extensions.swift */,
-				EE54CAF6206C435D003BB514 /* JSONEncodableEncoding.swift */,
-				EE54CAE9206C435D003BB514 /* JSONEncodingHelper.swift */,
-				EE54CAEA206C435D003BB514 /* Models */,
-				EE54CAF2206C435D003BB514 /* Models.swift */,
+				EE54CB0C206D32FF003BB514 /* SwaggerClient */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		EE54CAE3206C435C003BB514 /* APIs */ = {
+		EE54CB0C206D32FF003BB514 /* SwaggerClient */ = {
 			isa = PBXGroup;
 			children = (
-				EE54CAE4206C435C003BB514 /* PetAPI.swift */,
-				EE54CAE5206C435C003BB514 /* StoreAPI.swift */,
-				EE54CAE6206C435C003BB514 /* UserAPI.swift */,
+				EE54CB0D206D32FF003BB514 /* Classes */,
+			);
+			path = SwaggerClient;
+			sourceTree = "<group>";
+		};
+		EE54CB0D206D32FF003BB514 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE54CB0E206D32FF003BB514 /* Swaggers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE54CB0E206D32FF003BB514 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				EE54CB0F206D32FF003BB514 /* AlamofireImplementations.swift */,
+				EE54CB10206D32FF003BB514 /* APIHelper.swift */,
+				EE54CB11206D32FF003BB514 /* APIs */,
+				EE54CB15206D32FF003BB514 /* APIs.swift */,
+				EE54CB16206D32FF003BB514 /* CodableHelper.swift */,
+				EE54CB17206D32FF003BB514 /* Configuration.swift */,
+				EE54CB18206D32FF003BB514 /* Extensions.swift */,
+				EE54CB19206D32FF003BB514 /* JSONEncodableEncoding.swift */,
+				EE54CB1A206D32FF003BB514 /* JSONEncodingHelper.swift */,
+				EE54CB1B206D32FF003BB514 /* Models */,
+				EE54CB22206D32FF003BB514 /* Models.swift */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		EE54CB11206D32FF003BB514 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				EE54CB12206D32FF003BB514 /* PetAPI.swift */,
+				EE54CB13206D32FF003BB514 /* StoreAPI.swift */,
+				EE54CB14206D32FF003BB514 /* UserAPI.swift */,
 			);
 			path = APIs;
 			sourceTree = "<group>";
 		};
-		EE54CAEA206C435D003BB514 /* Models */ = {
+		EE54CB1B206D32FF003BB514 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EE54CAEB206C435D003BB514 /* ApiResponse.swift */,
-				EE54CAEC206C435D003BB514 /* Category.swift */,
-				EE54CAED206C435D003BB514 /* Order.swift */,
-				EE54CAEE206C435D003BB514 /* Pet.swift */,
-				EE54CAEF206C435D003BB514 /* Tag.swift */,
-				EE54CAF0206C435D003BB514 /* User.swift */,
+				EE54CB1C206D32FF003BB514 /* ApiResponse.swift */,
+				EE54CB1D206D32FF003BB514 /* Category.swift */,
+				EE54CB1E206D32FF003BB514 /* Order.swift */,
+				EE54CB1F206D32FF003BB514 /* Pet.swift */,
+				EE54CB20206D32FF003BB514 /* Tag.swift */,
+				EE54CB21206D32FF003BB514 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -314,10 +338,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PetStoreClientTests/Pods-PetStoreClientTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,24 +393,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE54CB08206C435D003BB514 /* JSONEncodableEncoding.swift in Sources */,
-				EE54CAF8206C435D003BB514 /* StoreAPI.swift in Sources */,
-				EE54CAFB206C435D003BB514 /* Configuration.swift in Sources */,
-				EE54CAFC206C435D003BB514 /* JSONEncodingHelper.swift in Sources */,
-				EE54CB05206C435D003BB514 /* APIHelper.swift in Sources */,
-				EE54CAFF206C435D003BB514 /* Order.swift in Sources */,
-				EE54CAFD206C435D003BB514 /* ApiResponse.swift in Sources */,
-				EE54CB00206C435D003BB514 /* Pet.swift in Sources */,
-				EE54CB01206C435D003BB514 /* Tag.swift in Sources */,
-				EE54CB06206C435D003BB514 /* CodableHelper.swift in Sources */,
-				EE54CAF7206C435D003BB514 /* PetAPI.swift in Sources */,
-				EE54CB03206C435D003BB514 /* Extensions.swift in Sources */,
-				EE54CB02206C435D003BB514 /* User.swift in Sources */,
-				EE54CAFA206C435D003BB514 /* APIs.swift in Sources */,
-				EE54CAF9206C435D003BB514 /* UserAPI.swift in Sources */,
-				EE54CB07206C435D003BB514 /* AlamofireImplementations.swift in Sources */,
-				EE54CAFE206C435D003BB514 /* Category.swift in Sources */,
-				EE54CB04206C435D003BB514 /* Models.swift in Sources */,
+				EE54CB32206D32FF003BB514 /* Tag.swift in Sources */,
+				EE54CB31206D32FF003BB514 /* Pet.swift in Sources */,
+				EE54CB2C206D32FF003BB514 /* JSONEncodableEncoding.swift in Sources */,
+				EE54CB26206D32FF003BB514 /* StoreAPI.swift in Sources */,
+				EE54CB2B206D32FF003BB514 /* Extensions.swift in Sources */,
+				EE54CB29206D32FF003BB514 /* CodableHelper.swift in Sources */,
+				EE54CB25206D32FF003BB514 /* PetAPI.swift in Sources */,
+				EE54CB33206D32FF003BB514 /* User.swift in Sources */,
+				EE54CB24206D32FF003BB514 /* APIHelper.swift in Sources */,
+				EE54CB30206D32FF003BB514 /* Order.swift in Sources */,
+				EE54CB2D206D32FF003BB514 /* JSONEncodingHelper.swift in Sources */,
+				EE54CB27206D32FF003BB514 /* UserAPI.swift in Sources */,
+				EE54CB28206D32FF003BB514 /* APIs.swift in Sources */,
+				EE54CB2F206D32FF003BB514 /* Category.swift in Sources */,
+				EE54CB2E206D32FF003BB514 /* ApiResponse.swift in Sources */,
+				EE54CB34206D32FF003BB514 /* Models.swift in Sources */,
+				EE54CB2A206D32FF003BB514 /* Configuration.swift in Sources */,
+				EE54CB23206D32FF003BB514 /* AlamofireImplementations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

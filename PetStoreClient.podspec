@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PetStoreClient"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "An API for connecting to the Swagger Pet Store API sample."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "PetStoreClient/Classes/*.swift"
+  s.source_files  = "PetStoreClient/Classes/**/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

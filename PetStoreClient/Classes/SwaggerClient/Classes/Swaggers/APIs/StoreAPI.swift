@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import RxSwift
 
 
 
@@ -23,6 +24,25 @@ open class StoreAPI {
         }
     }
 
+    /**
+     Delete purchase order by ID
+     
+     - parameter orderId: (path) ID of the order that needs to be deleted 
+     - returns: Observable<Void>
+     */
+    open class func deleteOrder(orderId: Int64) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            deleteOrder(orderId: orderId) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Delete purchase order by ID
@@ -58,6 +78,24 @@ open class StoreAPI {
         }
     }
 
+    /**
+     Returns pet inventories by status
+     
+     - returns: Observable<[String:Int]>
+     */
+    open class func getInventory() -> Observable<[String:Int]> {
+        return Observable.create { observer -> Disposable in
+            getInventory() { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Returns pet inventories by status
@@ -97,6 +135,25 @@ open class StoreAPI {
         }
     }
 
+    /**
+     Find purchase order by ID
+     
+     - parameter orderId: (path) ID of pet that needs to be fetched 
+     - returns: Observable<Order>
+     */
+    open class func getOrderById(orderId: Int64) -> Observable<Order> {
+        return Observable.create { observer -> Disposable in
+            getOrderById(orderId: orderId) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Find purchase order by ID
@@ -163,6 +220,25 @@ open class StoreAPI {
         }
     }
 
+    /**
+     Place an order for a pet
+     
+     - parameter body: (body) order placed for purchasing the pet 
+     - returns: Observable<Order>
+     */
+    open class func placeOrder(body: Order) -> Observable<Order> {
+        return Observable.create { observer -> Disposable in
+            placeOrder(body: body) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Place an order for a pet

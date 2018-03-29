@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import RxSwift
 
 
 
@@ -23,6 +24,25 @@ open class UserAPI {
         }
     }
 
+    /**
+     Create user
+     
+     - parameter body: (body) Created user object 
+     - returns: Observable<Void>
+     */
+    open class func createUser(body: User) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            createUser(body: body) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Create user
@@ -58,6 +78,25 @@ open class UserAPI {
         }
     }
 
+    /**
+     Creates list of users with given input array
+     
+     - parameter body: (body) List of user object 
+     - returns: Observable<Void>
+     */
+    open class func createUsersWithArrayInput(body: [User]) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            createUsersWithArrayInput(body: body) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Creates list of users with given input array
@@ -93,6 +132,25 @@ open class UserAPI {
         }
     }
 
+    /**
+     Creates list of users with given input array
+     
+     - parameter body: (body) List of user object 
+     - returns: Observable<Void>
+     */
+    open class func createUsersWithListInput(body: [User]) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            createUsersWithListInput(body: body) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Creates list of users with given input array
@@ -128,6 +186,25 @@ open class UserAPI {
         }
     }
 
+    /**
+     Delete user
+     
+     - parameter username: (path) The name that needs to be deleted 
+     - returns: Observable<Void>
+     */
+    open class func deleteUser(username: String) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            deleteUser(username: username) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Delete user
@@ -164,6 +241,25 @@ open class UserAPI {
         }
     }
 
+    /**
+     Get user by user name
+     
+     - parameter username: (path) The name that needs to be fetched. Use user1 for testing.  
+     - returns: Observable<User>
+     */
+    open class func getUserByName(username: String) -> Observable<User> {
+        return Observable.create { observer -> Disposable in
+            getUserByName(username: username) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Get user by user name
@@ -239,6 +335,26 @@ open class UserAPI {
         }
     }
 
+    /**
+     Logs user into the system
+     
+     - parameter username: (query) The user name for login 
+     - parameter password: (query) The password for login in clear text 
+     - returns: Observable<String>
+     */
+    open class func loginUser(username: String, password: String) -> Observable<String> {
+        return Observable.create { observer -> Disposable in
+            loginUser(username: username, password: password) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Logs user into the system
@@ -282,6 +398,24 @@ open class UserAPI {
         }
     }
 
+    /**
+     Logs out current logged in user session
+     
+     - returns: Observable<Void>
+     */
+    open class func logoutUser() -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            logoutUser() { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Logs out current logged in user session
@@ -316,6 +450,26 @@ open class UserAPI {
         }
     }
 
+    /**
+     Updated user
+     
+     - parameter username: (path) name that need to be updated 
+     - parameter body: (body) Updated user object 
+     - returns: Observable<Void>
+     */
+    open class func updateUser(username: String, body: User) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            updateUser(username: username, body: body) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Updated user

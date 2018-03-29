@@ -7,6 +7,7 @@ target 'PetStoreClient' do
 
   # Pods for PetStoreClient
   pod 'Alamofire', '~> 4.7.0'
+  pod 'RxSwift', '~> 4.1.2'
 
 
   target 'PetStoreClientTests' do

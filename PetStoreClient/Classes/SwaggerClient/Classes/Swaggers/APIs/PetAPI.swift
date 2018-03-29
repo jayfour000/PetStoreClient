@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import RxSwift
 
 
 
@@ -23,6 +24,25 @@ open class PetAPI {
         }
     }
 
+    /**
+     Add a new pet to the store
+     
+     - parameter body: (body) Pet object that needs to be added to the store 
+     - returns: Observable<Void>
+     */
+    open class func addPet(body: Pet) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            addPet(body: body) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Add a new pet to the store
@@ -62,6 +82,26 @@ open class PetAPI {
         }
     }
 
+    /**
+     Deletes a pet
+     
+     - parameter petId: (path) Pet id to delete 
+     - parameter apiKey: (header)  (optional)
+     - returns: Observable<Void>
+     */
+    open class func deletePet(petId: Int64, apiKey: String? = nil) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            deletePet(petId: petId, apiKey: apiKey) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Deletes a pet
@@ -115,6 +155,25 @@ open class PetAPI {
         }
     }
 
+    /**
+     Finds Pets by status
+     
+     - parameter status: (query) Status values that need to be considered for filter 
+     - returns: Observable<[Pet]>
+     */
+    open class func findPetsByStatus(status: [String]) -> Observable<[Pet]> {
+        return Observable.create { observer -> Disposable in
+            findPetsByStatus(status: status) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Finds Pets by status
@@ -240,6 +299,25 @@ open class PetAPI {
         }
     }
 
+    /**
+     Finds Pets by tags
+     
+     - parameter tags: (query) Tags to filter by 
+     - returns: Observable<[Pet]>
+     */
+    open class func findPetsByTags(tags: [String]) -> Observable<[Pet]> {
+        return Observable.create { observer -> Disposable in
+            findPetsByTags(tags: tags) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Finds Pets by tags
@@ -365,6 +443,25 @@ open class PetAPI {
         }
     }
 
+    /**
+     Find pet by ID
+     
+     - parameter petId: (path) ID of pet to return 
+     - returns: Observable<Pet>
+     */
+    open class func getPetById(petId: Int64) -> Observable<Pet> {
+        return Observable.create { observer -> Disposable in
+            getPetById(petId: petId) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Find pet by ID
@@ -456,6 +553,25 @@ open class PetAPI {
         }
     }
 
+    /**
+     Update an existing pet
+     
+     - parameter body: (body) Pet object that needs to be added to the store 
+     - returns: Observable<Void>
+     */
+    open class func updatePet(body: Pet) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            updatePet(body: body) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Update an existing pet
@@ -496,6 +612,27 @@ open class PetAPI {
         }
     }
 
+    /**
+     Updates a pet in the store with form data
+     
+     - parameter petId: (path) ID of pet that needs to be updated 
+     - parameter name: (form) Updated name of the pet (optional)
+     - parameter status: (form) Updated status of the pet (optional)
+     - returns: Observable<Void>
+     */
+    open class func updatePetWithForm(petId: Int64, name: String? = nil, status: String? = nil) -> Observable<Void> {
+        return Observable.create { observer -> Disposable in
+            updatePetWithForm(petId: petId, name: name, status: status) { error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(()))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      Updates a pet in the store with form data
@@ -545,6 +682,27 @@ open class PetAPI {
         }
     }
 
+    /**
+     uploads an image
+     
+     - parameter petId: (path) ID of pet to update 
+     - parameter additionalMetadata: (form) Additional data to pass to server (optional)
+     - parameter file: (form) file to upload (optional)
+     - returns: Observable<ApiResponse>
+     */
+    open class func uploadFile(petId: Int64, additionalMetadata: String? = nil, file: URL? = nil) -> Observable<ApiResponse> {
+        return Observable.create { observer -> Disposable in
+            uploadFile(petId: petId, additionalMetadata: additionalMetadata, file: file) { data, error in
+                if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.next(data!))
+                }
+                observer.on(.completed)
+            }
+            return Disposables.create()
+        }
+    }
 
     /**
      uploads an image
